@@ -32,6 +32,8 @@ else
   TARGET_KERNEL_CONFIG := exynos9820-beyond1lte_defconfig
 endif
 
+BOARD_KERNEL_CMDLINE := androidboot.boot_devices=13d60000.ufs
+
 ### PARTITIONS
 # /proc/partitions shows the size in 1024-byte blocks
 BOARD_BOOTIMAGE_PARTITION_SIZE := 57671680 # 56 MB
