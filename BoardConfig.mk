@@ -32,7 +32,7 @@ else
   TARGET_KERNEL_CONFIG := exynos9820-beyond1lte_defconfig
 endif
 
-BOARD_KERNEL_CMDLINE := androidboot.boot_devices=13d60000.ufs
+BOARD_KERNEL_CMDLINE += androidboot.boot_devices=13d60000.ufs
 
 ### PARTITIONS
 # /proc/partitions shows the size in 1024-byte blocks
